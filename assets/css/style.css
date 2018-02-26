@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*NAV*/
+#container1 {
+  border-bottom: 1px solid #000;
+  width: 100%;
+  height: 20vh;
+
+}
+
+#search {
+  width: 20%;
+  height: 5%;
+  margin-top: 10%;
+  margin-left: -12%;
+  margin-right: 25%;
+  
+}
+
+#btn {
+  height: 5.4vh;
+  margin-top: 61%;
+  margin-left: -155%;
+}
+
+#logo {
+  width: 50%;
+  height: 107%;
+  border-bottom: 1px solid #000;
+}
+
+#btn1 {
+  margin-left: 45%;
+
+}
+
+#shopping {
+  font-size: 25px;
+  margin-top: 11%;
+  margin-left: 3%;
+}
+
+#listNav {
+  list-style: none;
+}
+
+#listNav hr {
+  border-bottom: 1px solid #000;
+  width: 123.5%;
+  margin-left: -12%;
+  margin-top: -0.5%;
+}
+
+#listNav li{
+  display: inline-block;
+  line-height: 70px;
+  margin-left: 10%;
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 20px;
+}
+
+#listNav li a{
+  color: #000;
+}
+
+
+/*PRIMERA SECCION INICIO*/
+#carouselExampleControls {
+  width: 150%;
+  margin-left: -15%;
+  border-radius: 15px;
+}
+
+#img2 {
+  margin-left: 15%;
+  border-radius: 6px;
+}
+
+#text {
+  border: 1px solid #2ECC71;
+  background: #2ECC71;
+  font-size: 10px;
+  margin-left: 73%;
+  margin-top: -5%;
+  margin-bottom: %;
+  border-radius: 10px;
+}
+
+#text h2{
+  font-size: 18px;
+  font-family: 'Amaranth', sans-serif;
+  text-align: center;
+  margin-top: 6%;
+}
+
+
