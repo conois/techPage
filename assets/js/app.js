@@ -1,4 +1,3 @@
-
 /* page('ruta', callback) */
 page.start()
 page('/home', home); 
@@ -36,11 +35,9 @@ function home(){
             </a>
           </div>
         </div>
-
         <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" id="img2">
           <img src="assets/img/inicio1.PNG" alt="">
         </div>
-
         <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3" id="text">
           <h2>Compra tus artículos favoritos></h2>
         </div>
@@ -48,7 +45,6 @@ function home(){
     </div>
   </section>
 <!--FIN DE PRIMERA SECCION INICIO-->
-
 <!--SEGUNDA SECCION INICIO-->
   <section>
     <div class="container">
@@ -57,7 +53,6 @@ function home(){
       		<h2><i class="fas fa-check" id="check"></i>Artículos únicos</h2>
       		<p>Tenemos millones de artículos totalmente únicos. Solo tienes que encontrar lo que sea que busques (o ese producto que tanto te ha enamorado).</p>
       	</div>
-
       	<div class="col-sm-6 col-md-6 col-xl-6 col-lg-6" id="paragraph">
       		<h2><i class="fas fa-check" id="check"></i>Compras seguras</h2>
       		<p>Usamos la mejor tecnología de su clase para proteger tus transacciones.</p>
@@ -66,7 +61,6 @@ function home(){
     </div>
   </section>
 <!--FIN DE SEGUNDA SECCION INICIO-->
-
 <!--TERCERA SECCION INICIO-->
 	<section>
 		<div class="container">
@@ -75,7 +69,6 @@ function home(){
 					<h1>Lo más popular</h1>
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="images">
 					<img src="assets/img/notebook.png" alt="">
@@ -90,7 +83,6 @@ function home(){
 		
 	</section>
 <!--FIN DE TERCERA SECCION INICIO-->
-
 <!--CUARTA SECCION INICIO-->
 	<section>
 		<div class="container">
@@ -99,7 +91,6 @@ function home(){
 					<h1>Búsqueda por categoría</h1>
 				</div>
 			</div>
-
 			<div class="row" id="cards">
 				<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
 					<div class="card" id="cards1" style="width: 10rem;">
@@ -109,7 +100,6 @@ function home(){
 	  			</div>
 					</div>
 				</div>
-
 				<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
 					<div class="card" id="cards1" style="width: 10rem;">
 	  				<img class="card-img-top" src="assets/img/camara.png" alt="Card image cap">
@@ -118,7 +108,6 @@ function home(){
 	  			</div>
 					</div>
 				</div>
-
 				<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
 					<div class="card" id="cards1" style="width: 10rem;">
 	  				<img class="card-img-top" src="assets/img/headphones.png" alt="Card image cap">
@@ -127,7 +116,6 @@ function home(){
 	  			</div>
 					</div>
 				</div>
-
 				<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
 					<div class="card" id="cards1" style="width: 10rem;">
 	  				<img class="card-img-top" src="assets/img/notebook.png" alt="Card image cap">
@@ -140,7 +128,6 @@ function home(){
 		</div>
 	</section>
 <!--FIN DE CUARTA SECCION INICIO-->
-
 <!--QUINTA SECCION INICIO-->
 	<section id="fiveSection">
 		<div class="container">
@@ -148,29 +135,24 @@ function home(){
 				<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
 					<img src="assets/img/caja-fuerte.png" alt="" id="box">
 				</div>
-
 				<div class="col-sm-8 col-md-8 col-lg-8 col-xl-8" id="title2">
 					<h1>MarkeTech te mantiene seguro</h1>
 				</div>
 			</div>
-
 				<div class="row">
 					<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4" id="title3">
 						<h3>Confianza</h3>
 						<p>Puedes leer sus reseñas y políticas, y ponerte en contacto con nosotros si tienes alguna pregunta</p>
 					</div>
-
 					<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4" id="title3">
 						<h3>Seguridad a nivel mundial</h3>
 						<p>La protección de tu información es la principal prioridad de nuestros expertos en seguridad</p>
 					</div>
-
 					<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4" id="title3">
 						<h3>Compra de protección</h3>
 						<p>Si surge algún problema, nuestro equipo de asistencia global estará a tu servicio</p>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-sm-2">
 						<img src="assets/img/llave.png" alt="" id="key">
@@ -179,7 +161,6 @@ function home(){
 		</div>
 	</section>
 <!--FIN DE QUINTA SECCION INICIO-->
-
 <!--SEXTA SECCION INICIO-->
 	<section id="sixSection">
 		<div class="container">
@@ -187,13 +168,11 @@ function home(){
 				<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
 					<img src="assets/img/local.png" alt="" id="local">
 				</div>
-
 				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6" id="text3">
 					<h1>¿Qué es MarkeTech?</h1>
 					<p>Somos más que un mercado</p>
 					<p>Lee todo sobre nosotros    ></p>
 					</div>
-
 				<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
 					<img src="assets/img/local.png" alt="" id="local">
 				</div>
@@ -201,7 +180,6 @@ function home(){
 		</div>
 	</section>
 <!--FIN DE SEXTA SECCION INICIO-->
-
 <!--SEPTIMA SECCION INICIO (FOOTER)-->
 	<section>
 		
@@ -212,7 +190,8 @@ function home(){
 
 
 function phones() {
-	$("#fromPage").empty(); 
+	$("#fromPage").empty();
+	$('#principalContainer').hide();
 	let dataPhone = data.phone;
 	console.log(dataPhone);
 	for (let i in dataPhone) {
@@ -304,3 +283,4 @@ function computers(){
 													  </div>`)
 	}
 }
+

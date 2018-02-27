@@ -245,10 +245,72 @@
 #text3 p {
   text-align: center;
   font-size: 20px;
-
 }
 
-/*Tarjetas*/
+/*SEPTIMA SECCION INICIO*/
+#line1 {
+  border-bottom: 1px solid #000;
+  width: 112%;
+  margin-left: -12%;
+  margin-top: -0.5%;
+}
+
+#footer1{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+#footer1 li {
+  list-style: none;
+  text-align: center;
+  margin-top: 3%;
+  font-family: 'Arsenal', sans-serif;
+}
+
+#footer1 h6 {
+  text-align: center;
+  margin-top: 10%;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 600;
+}
+
+#markeInc {
+  font-family: 'Arsenal', sans-serif;
+  font-size: 15px;
+  color: gray;
+  margin-left: 80%;
+}
+
+/*OCTAVA SECCION INICIO (FOOTER)*/
+#footer2 {
+  margin-left: -18%;
+}
+
+#logo2 {
+  width: 15%;
+  height: 15%;
+}
+
+#footer2 h6 {
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 600;
+}
+
+#footer3 {
+margin-left: 15%;
+}
+
+#footer3 li {
+  margin-left: 3.5%;
+  list-style: none;
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  display: inline-block;
+  margin-top: 4.5%;
+}
+
+/*TARJETAS DE TELEFONOS*/
 
 .card{
   margin-bottom: 10em;
