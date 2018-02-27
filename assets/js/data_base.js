@@ -172,7 +172,8 @@ let data = {
       "Formatos_de_imagen": "JPEG",
       "Sensibilidad_ISO": "100-12.800 ISO-Ampliable a 25600 ISO",
       "Peso_sin_baterías": "525 gr",
-      "description": "La Cámara Reflex EOS Rebel T5i + Lente 18-55mm Canon posee cualidades realmente sorprendentes, entre las que destaca su sensor de CMOS APS-C de 18 MP, el cual te permitirá capturar imágenes con gran resolución y calidad. También puedes filmar en Full HD con controles manuales o AF de forma continua, que ofrece cuadros nítidos y colores más realistas. Para la captura de varias imágenes, incluye un disparador continuo de 5 fps."
+      "description": "La Cámara Reflex EOS Rebel T5i + Lente 18-55mm Canon posee cualidades realmente sorprendentes, entre las que destaca su sensor de CMOS APS-C de 18 MP, el cual te permitirá capturar imágenes con gran resolución y calidad. También puedes filmar en Full HD con controles manuales o AF de forma continua, que ofrece cuadros nítidos y colores más realistas. Para la captura de varias imágenes, incluye un disparador continuo de 5 fps.", 
+      "value": "G62JXJWRQES78", 
     },
     {
       "name": "Cámaras Profesionales ILCE-5100L",
@@ -192,7 +193,10 @@ let data = {
       "Formatos_de_imagen": "JPEG/RAW",
       "Sensibilidad_ISO": "Auto, 100-25600, (102400 max)",
       "Peso_sin_baterías": "283 g",
-      "description": "Con la Cámara Profesional ILCE-5100L Sony obtendrás siempre los mejores resultados en cada disparo. Disfruta de la comodidad de captura mejorada con una pantalla LCD de 3 pulgadas que gira en 180° para acomodar la captura en cualquier ángulo. El enfoque automático rápido híbrido proporciona un enfoque extremadamente preciso y un seguimiento fluido de los sujetos, incluso mientras se graban videos."
+      "description": "Con la Cámara Profesional ILCE-5100L Sony obtendrás siempre los mejores resultados en cada disparo. Disfruta de la comodidad de captura mejorada con una pantalla LCD de 3 pulgadas que gira en 180° para acomodar la captura en cualquier ángulo. El enfoque automático rápido híbrido proporciona un enfoque extremadamente preciso y un seguimiento fluido de los sujetos, incluso mientras se graban videos.",
+      "value": "CJE7C4JBR9GFS",
+
+
     },
     {
       "name": "Cámara Semiprofesional DMC-FZ70PU-K",
@@ -212,7 +216,9 @@ let data = {
       "Formatos_de_imagen": "JPEG/RAW",
       "Sensibilidad_ISO": "Auto, 100-3200",
       "Peso_sin_baterías": "1,02 gr",
-      "description": "La Cámara Digital LUMIX DMC-FZ70 cuenta con POWER O.I.S. (Estabilizador óptico de imagen) que elimina de manera efectiva la vibración provocada por el temblor de las manos. La DMC-FZ70 está equipada con el Modo Activo, que facilita la grabación de video activo en ángulo amplio, por ejemplo mientras vas caminando, sin provocar un deterioro en la calidad de imagen."
+      "description": "La Cámara Digital LUMIX DMC-FZ70 cuenta con POWER O.I.S. (Estabilizador óptico de imagen) que elimina de manera efectiva la vibración provocada por el temblor de las manos. La DMC-FZ70 está equipada con el Modo Activo, que facilita la grabación de video activo en ángulo amplio, por ejemplo mientras vas caminando, sin provocar un deterioro en la calidad de imagen.", 
+      "value": "TTGP64769WZYU",
+
     },
     {
       "name": "Cámara Coolpix B-700",
@@ -232,7 +238,9 @@ let data = {
       "Formatos_de_imagen": "JPEG",
       "Sensibilidad_ISO": "100-1600,18",
       "Peso_sin_baterías": "570 g",
-      "description": "Cámara digital compacta, hasta 4 aumentos (ángulo de visión equivalente al de un objetivo de aprox. 5760 mm en formato de 35 mm [135]), hasta 2 aumentos cuando las Opciones vídeo se ajustan en 2160/30p o 2160/25p (ángulo de visión equivalente al de un objetivo de aprox. 2880 mm en formato de 35 mm [135])"
+      "description": "Cámara digital compacta, hasta 4 aumentos (ángulo de visión equivalente al de un objetivo de aprox. 5760 mm en formato de 35 mm [135]), hasta 2 aumentos cuando las Opciones vídeo se ajustan en 2160/30p o 2160/25p (ángulo de visión equivalente al de un objetivo de aprox. 2880 mm en formato de 35 mm [135])", 
+      "value": "TTGP64769WZYU",
+
     },
     {
       "name": "Hero Session New 8MP",
@@ -252,7 +260,9 @@ let data = {
       "Formatos_de_imagen": "JPEG",
       "Sensibilidad_ISO": "sin información",
       "Peso_sin_baterías": "73 g",
-      "description": "Su reducido peso y tamaño es una tremenda ventaja para llevarla contigo en tus nuevas aventuras deportivas. Y siempre tendrás un excelente resultado, ya que la cámara se ajusta a la orientación de la grabación según la posición del objetivo al momento de empezar a grabar. Con ella, tendrás la posibilidad de grabar videos en calidad Full HD, por lo que tendrás una imagen excelente y los mejores recuerdos de tu momento extremo. Además, puedes sacar fotografías con alta resolución y ha sido desarrollada con un lente que te ofrece 8 megapixeles, toda una revolución, para una cámara que apenas tiene 3,6 centímetros de alto, ancho y profundidad, y que pesa 73 gramos."
+      "description": "Su reducido peso y tamaño es una tremenda ventaja para llevarla contigo en tus nuevas aventuras deportivas. Y siempre tendrás un excelente resultado, ya que la cámara se ajusta a la orientación de la grabación según la posición del objetivo al momento de empezar a grabar. Con ella, tendrás la posibilidad de grabar videos en calidad Full HD, por lo que tendrás una imagen excelente y los mejores recuerdos de tu momento extremo. Además, puedes sacar fotografías con alta resolución y ha sido desarrollada con un lente que te ofrece 8 megapixeles, toda una revolución, para una cámara que apenas tiene 3,6 centímetros de alto, ancho y profundidad, y que pesa 73 gramos.", 
+      "value": "TTGP64769WZYU",
+
     },
     {
       "name": "Cámara Instántanea Mini 8 Amarilla",
@@ -272,7 +282,9 @@ let data = {
       "Formatos_de_imagen": "no aplica",
       "Sensibilidad_ISO": "sin informacion",
       "Peso_sin_baterías": "307 gr",
-      "description": "Saca las mejores fotografías instantáneas con la Cámara Instantánea Mini 8 Amarilla Fuji. Este modelo te entrega las fotos en papel fotográfico en un mínimo de tiempo. También tiene un flash y enfoque automático para obtengas los mejores resultados al momento de disparar."
+      "description": "Saca las mejores fotografías instantáneas con la Cámara Instantánea Mini 8 Amarilla Fuji. Este modelo te entrega las fotos en papel fotográfico en un mínimo de tiempo. También tiene un flash y enfoque automático para obtengas los mejores resultados al momento de disparar.", 
+      "value": "TTGP64769WZYU",
+      
     }
   ],
   "phone": [
