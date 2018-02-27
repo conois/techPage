@@ -1,4 +1,4 @@
-[
+let data = {
   "notebook": [
     {
       "name": "Notebook Gamer Intel Core i5 RAM 8GB-1TB DD 15,6 TV 4GB",
@@ -18,11 +18,11 @@
       "Peso": "2,62 kg",
       "Resolución_de_la_pantalla": "1920 x 1080",
       "Tipo": "Gamer",
-      "description": [
-        "Alto": "2,48 cm",
-        "Ancho": "38,86 cm",
-        "Profundidad": "27,56 cm"
-      ]
+      "description":{
+        "Alto": "2.48 cm",
+        "Ancho": "38.86 cm",
+        "Profundidad": "27.56 cm",
+      }
     },
     {
       "name": "Notebook Intel Core i7 16GB RAM- 1TB DD + 128GB SSD",
@@ -42,11 +42,11 @@
       "Peso": "2700 g",
       "Resolución_de_la_pantalla": "1920 x 1080",
       "Tipo": "Gamer",
-      "description": [
-        "Alto": "2,66 cm",
-        "Ancho": "38,9 cm",
-        "Profundidad": "26,5 cm"
-      ]
+      "description":{
+        "Alto": "2.66 cm",
+        "Ancho": "38.9 cm",
+        "Profundidad": "26.5 cm"
+      }
     },
     {
       "name": "Notebook Gamer Intel Core i7 16GB RAM- 512GB SSD 15,6 TV 8GB",
@@ -66,11 +66,11 @@
       "Peso": "2,24 kg",
       "Resolución_de_la_pantalla": "FHD 1920x1080",
       "Tipo": "Gamer",
-      "description": [
-        "Alto": "1,78 cm",
-        "Ancho": "37,9 cm",
-        "Profundidad": "26,2 cm"
-      ]
+      "description":{
+        "Alto": "1.78 cm",
+        "Ancho": "37.9 cm",
+        "Profundidad": "26.2 cm"
+      }
     },
     {
       "name": "Notebook CI7 16GB RAM-1TB DD 15,6 TV 4GB",
@@ -90,11 +90,11 @@
       "Peso": "2,32 kg",
       "Resolución_de_la_pantalla": "1920x1080",
       "Tipo": "Gamer",
-      "description": [
+      "description":{
         "Alto": "24 mm",
         "Ancho": "380 mm",
         "Profundidad": "260 mm"
-      ]
+      }
     },
     {
       "name": "Notebook Intel Core i5 8GB RAM-1TB DD 15,6 TV 4GB",
@@ -114,11 +114,11 @@
       "Peso": "2600 g",
       "Resolución_de_la_pantalla": "1920x1080",
       "Tipo": "Gamer",
-      "description": [
-        "Alto": "2,7 cm",
-        "Ancho": "38,7 cm",
-        "Profundidad": "2,59 cm"
-      ]
+      "description":{
+        "Alto": "2.7 cm",
+        "Ancho": "38.7 cm",
+        "Profundidad": "2.59 cm"
+      }
     },
     {
       "name": "Notebook Gamer Intel Core i7 8GB RAM 1TB DD-17 TV 2GB",
@@ -138,12 +138,12 @@
       "Peso": "2700 g",
       "Resolución_de_la_pantalla": "1920x1080",
       "Tipo": "Gamer",
-      "description": [
-        "Alto": "3,2 cm",
+      "description":{
+        "Alto": "3.2 cm",
         "Ancho": "42 cm",
-        "Profundidad": "28,9 cm"
-      ]
-    },
+        "Profundidad": "28.9 cm"
+      }
+    }
   ],
   "camera": [
     {
@@ -183,8 +183,8 @@
       "Tamaño_de_pantalla": "3,0",
       "Formatos_de_imagen": "JPEG/RAW",
       "Sensibilidad_ISO": "Auto, 100-25600, (102400 max)",
-      "Peso_sin_baterías": "283 g"
-      "description": "Con la Cámara Profesional ILCE-5100L Sony obtendrás siempre los mejores resultados en cada disparo. Disfruta de la comodidad de captura mejorada con una pantalla LCD de 3" que gira en 180° para acomodar la captura en cualquier ángulo. El enfoque automático rápido híbrido proporciona un enfoque extremadamente preciso y un seguimiento fluido de los sujetos, incluso mientras se graban videos."
+      "Peso_sin_baterías": "283 g",
+      "description": "Con la Cámara Profesional ILCE-5100L Sony obtendrás siempre los mejores resultados en cada disparo. Disfruta de la comodidad de captura mejorada con una pantalla LCD de 3 pulgadas que gira en 180° para acomodar la captura en cualquier ángulo. El enfoque automático rápido híbrido proporciona un enfoque extremadamente preciso y un seguimiento fluido de los sujetos, incluso mientras se graban videos."
     },
     {
       "name": "Cámara Semiprofesional DMC-FZ70PU-K",
@@ -265,9 +265,9 @@
       "Sensibilidad_ISO": "sin informacion",
       "Peso_sin_baterías": "307 gr",
       "description": "Saca las mejores fotografías instantáneas con la Cámara Instantánea Mini 8 Amarilla Fuji. Este modelo te entrega las fotos en papel fotográfico en un mínimo de tiempo. También tiene un flash y enfoque automático para obtengas los mejores resultados al momento de disparar."
-    },
+    }
   ],
-  "celular": [
+  "phone": [
     {
       "name": "iPhone 7 Plus 128GB Negro Mate Liberado",
       "model": "MN4M2CI/A",
@@ -281,19 +281,19 @@
       "Compañía": "liberado",
       "Sistema_operativo": "IOS",
       "tamaño_pantalla": "5,5",
-      "Tipo_de_pantalla": "retina HD"
-      "Color": "negro mate",
+      "Tipo_de_pantalla": "retina HD",
+      "Color": "negro",
       "Peso": "188 g",
-      "Cámara_frontal": "7MP"
-      "Cámara_posterior": "12MP"
+      "Cámara_frontal": "7MP",
+      "Cámara_posterior": "12MP",
       "Conectividad": "WiFi+3G+4G+NFC",
       "Conexión": "Bluetooth",
       "GPS": "integrado",
-      "description": [
+      "description": {
         "Alto": "15,82 cm",
         "Ancho": "7,79 cm",
-        "Profundidad": "0,73 cm"
-      ]
+        "Profundidad": "0,73 cm",
+      }
     },
     {
       "name": "Iphone SE 32GB Rose Gold",
@@ -308,19 +308,19 @@
       "Compañía": "liberado",
       "Sistema_operativo": "IOS",
       "tamaño_pantalla": "4,0",
-      "Tipo_de_pantalla": "Retina Display"
+      "Tipo_de_pantalla": "Retina Display",
       "Color": "Rose Gold",
       "Peso": "113 g",
-      "Cámara_frontal": "1.2MP"
-      "Cámara_posterior": "12MP"
+      "Cámara_frontal": "1.2MP",
+      "Cámara_posterior": "12MP",
       "Conectividad": "WiFi+3G+4G+NFC",
       "Conexión": "Bluetooth",
       "GPS": "integrado",
-      "description": [
+      "description":{
         "Alto": "123,8 cm",
         "Ancho": "58,6 cm",
-        "Profundidad": "7,6 cm"
-      ]
+        "Profundidad": "7,6 cm",
+      }
     },
     {
       "name": "Mate 10 Pro Mocha Brown",
@@ -335,19 +335,19 @@
       "Compañía": "liberado",
       "Sistema operativo": "Android 8",
       "tamaño_pantalla": "6",
-      "Tipo_de_pantalla": "sin informacion"
+      "Tipo_de_pantalla": "sin informacion",
       "Color": "Mocha Brown",
       "Peso": "sin informacion",
-      "Cámara_frontal": "8MP"
-      "Cámara_posterior": "20MP"
+      "Cámara_frontal": "8MP",
+      "Cámara_posterior": "20MP",
       "Conectividad": "WiFi+3G+4G+NFC",
       "Conexión": "Bluetooth",
       "GPS": "integrado",
-      "description": [
+      "description": {
         "Alto": "154.2 mm",
         "Ancho": "74.5 mm",
-        "Profundidad": "sin informacion"
-      ]
+        "Profundidad": "sin informacion",
+      }
     },
     {
       "name": "Smartphone Mate 9 Lite Gold",
@@ -362,19 +362,19 @@
       "Compañía": "liberado",
       "Sistema_operativo": "Android",
       "tamaño_pantalla": "5.5",
-      "Tipo_de_pantalla": "FHD (1920 x 1080)"
+      "Tipo_de_pantalla": "FHD (1920 x 1080)",
       "Color": "Gold",
       "Peso": "168 g",
-      "Cámara_frontal": "8MP"
+      "Cámara_frontal": "8MP",
       "Cámara_posterior": "Dual 12 MP+2 MP",
       "Conectividad": "WiFi+3G+4G",
       "Conexión": "Bluetooth",
       "GPS": "integrado",
-      "description": [
+      "description": {
         "Alto": "15,43 cm",
         "Ancho": "7,71 cm",
-        "Profundidad": "0,845 cm"
-      ]
+        "Profundidad": "0,845 cm",
+      }
     },
     {
       "name": "Smartphone Galaxy S7Edge 32GB Dorado Liberado",
@@ -389,19 +389,19 @@
       "Compañía": "liberado",
       "Sistema_operativo": "Android",
       "tamaño_pantalla": "5.5",
-      "Tipo_de _pantalla": "SAMOLED"
+      "Tipo_de _pantalla": "SAMOLED",
       "Color": "Dorado",
       "Peso": "sin informacion",
-      "Cámara_frontal": "5MP"
+      "Cámara_frontal": "5MP",
       "Cámara_posterior": "dual pixel 12.0MP",
       "Conectividad": "WiFi+3G+4G+NFC",
       "Conexión": "Bluetooth",
       "GPS": "integrado",
-      "description": [
+      "description": {
         "Alto": "72,6 cm",
         "Ancho": "150,9 cm",
-        "Profundidad": "7,7 cm"
-      ]
+        "Profundidad": "7,7 cm",
+      }
     },
     {
       "name": "Smartphone Galaxy S8 Black",
@@ -416,22 +416,22 @@
       "Compañía": "liberado",
       "Sistema_operativo": "Android",
       "tamaño_pantalla": "5.8",
-      "Tipo_de_pantalla": "Super Amoled"
+      "Tipo_de_pantalla": "Super Amoled",
       "Color": "negro",
       "Peso": "155 g",
-      "Cámara_frontal": "8MP"
+      "Cámara_frontal": "8MP",
       "Cámara_posterior": "12MP",
       "Conectividad": "WiFi+3G+4G+NFC",
       "Conexión": "Bluetooth",
       "GPS": "integrado",
-      "description": [
+      "description": {
         "Alto": "148,9 mm",
         "Ancho": " 68,1 mm",
-        "Profundidad": "8 mm"
-      ]
+        "Profundidad": "8 mm",
+      }
     },
   ],
-  "audifonos": [
+  "headphone": [
     {
       "name": "Audífonos Hero Tracks Hd2 Deep Gold BT",
       "model": "Hero Tracks Hd2 Deep Gold",
@@ -529,4 +529,5 @@
       "description": "sin informacion"
     },
   ]
-]
+};
+
