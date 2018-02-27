@@ -211,7 +211,7 @@ function phones() {
 													    <div>
 													    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 																<input type="hidden" name="cmd" value="_s-xclick">
-																<input type="hidden" name="hosted_button_id" value="">
+																<input type="hidden" name="hosted_button_id" value="CJE7C4JBR9GFS">
 																<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 																<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
 																</form></div>
@@ -234,6 +234,15 @@ function camera(){
 													    <p class="card-text">
 													     ${dataCamera[i].description}</p> 
 													    <a href="/phone/${dataCamera[i].model}" class="btn btn-primary" id="btnView">View more</a>
+													    <a href="/phone/${dataCamera[i].model}" class="btn btn-primary">View more</a>
+													     <div>
+															   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+																	<input type="hidden" name="cmd" value="_s-xclick">
+																	<input type="hidden" name="hosted_button_id" value=${dataCamera[i].value}>
+																	<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+																	<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+																	</form>
+															</div> 
 													  </div>`)
 	}
 }
@@ -251,9 +260,17 @@ function headphones(){
 													    <h5 class="card-title">${dataHeadphone[i].name}</h5> 
 													    <p class="card-text">${dataHeadphone[i].description}</p>
 													    <a href="/phone/${dataHeadphone[i].model}" class="btn btn-primary" id="btnView">View more</a>
+													    <a href="/phone/${dataHeadphone[i].model}" class="btn btn-primary">View more</a>
+													   	 <div>
+													    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+																<input type="hidden" name="cmd" value="_s-xclick">
+																<input type="hidden" name="hosted_button_id" value="CJE7C4JBR9GFS">
+																<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+																<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+																</form></div>
+															</div> 
 													  </div>`)
-	}
-	
+	}	
 }
 
 function computers(){
