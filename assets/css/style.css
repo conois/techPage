@@ -31,14 +31,28 @@
 }
 
 #btn1 {
-  margin-left: 45%;
-
+  margin-left: 45%
 }
 
-#shopping {
-  font-size: 25px;
-  margin-top: 11%;
-  margin-left: 3%;
+.mybtnCart{
+  background-color: transparent;
+  border-style: none;
+  padding-top: 1em;
+  margin-top: 30px; 
+}
+
+.mybtnCart:hover{
+  cursor: pointer; 
+}
+
+.mybtnCart:focus{
+  outline: none; 
+}
+
+.fa-cart-arrow-down{
+  margin-left: 15px; 
+  font-size: 4em;
+  font-size: 1.5em;
 }
 
 #listNav {

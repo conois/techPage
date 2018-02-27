@@ -22,7 +22,8 @@ let data = {
         "Alto": "2.48 cm",
         "Ancho": "38.86 cm",
         "Profundidad": "27.56 cm",
-      }
+      },
+      "value": "VSA3VHBAMQAXY",
     },
     {
       "name": "Notebook Intel Core i7 16GB RAM- 1TB DD + 128GB SSD",
@@ -45,8 +46,10 @@ let data = {
       "description":{
         "Alto": "2.66 cm",
         "Ancho": "38.9 cm",
-        "Profundidad": "26.5 cm"
-      }
+        "Profundidad": "26.5 cm", 
+      },
+      "value": "N893J4C66KSM2",
+
     },
     {
       "name": "Notebook Gamer Intel Core i7 16GB RAM- 512GB SSD 15,6 TV 8GB",
@@ -70,7 +73,9 @@ let data = {
         "Alto": "1.78 cm",
         "Ancho": "37.9 cm",
         "Profundidad": "26.2 cm"
-      }
+      },
+      "value": "66DBZGJYKBZNE",
+
     },
     {
       "name": "Notebook CI7 16GB RAM-1TB DD 15,6 TV 4GB",
@@ -94,7 +99,8 @@ let data = {
         "Alto": "24 mm",
         "Ancho": "380 mm",
         "Profundidad": "260 mm"
-      }
+      },
+      "value": "YM7ZLRS67AHP8",
     },
     {
       "name": "Notebook Intel Core i5 8GB RAM-1TB DD 15,6 TV 4GB",
@@ -118,7 +124,8 @@ let data = {
         "Alto": "2.7 cm",
         "Ancho": "38.7 cm",
         "Profundidad": "2.59 cm"
-      }
+      },
+      "value": "KCAYD5NV4WEVN",
     },
     {
       "name": "Notebook Gamer Intel Core i7 8GB RAM 1TB DD-17 TV 2GB",
@@ -142,7 +149,8 @@ let data = {
         "Alto": "3.2 cm",
         "Ancho": "42 cm",
         "Profundidad": "28.9 cm"
-      }
+      },
+      "value": "Y5HNUMULHAMRW",
     }
   ],
   "camera": [

@@ -3,7 +3,6 @@
 page.start()
 page('/home', home); 
 page('/phones', phones);
-page('/phone/:model', phoneModel); 
 page('/camera', camera); 
 page('/headphones', headphones); 
 page('/computers', computers);
@@ -230,114 +229,78 @@ function phones() {
 													    Profundidad: ${dataPhone[i].description.Profundidad}
 													    <br> </p>
 													    <a href="/phone/${dataPhone[i].model}" class="btn btn-primary">View more</a>
-													  </div>
+													    <div>
+													    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+																<input type="hidden" name="cmd" value="_s-xclick">
+																<input type="hidden" name="hosted_button_id" value="">
+																<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+																<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+																</form></div>
+															</div>
 													</div>`)
 	}
 }
 
-
 function camera(){
 	$("#fromPage").empty(); 
-	let i = 0;
-	let cameraOne = `
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="${data.camera[0].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.camera[1].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.camera[2].img}" alt="" />
-			</div>
-		</div>
-	`;
-	let cameraTwo = `
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="${data.camera[3].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.camera[4].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.camera[5].img}" alt="" />
-			</div>
-		</div>
-	`;
-	console.log(cameraOne);
-
-	$('#fromPage').append(cameraOne);
-	$('#fromPage').append(cameraTwo);
+	let dataCamera = data.camera;
+	console.log(dataCamera);
+	for (let i in dataCamera) {
+	$("#fromPage").append(`<div class="card" style="width: 18rem;">
+													  <img class="card-img-top" src="${dataCamera[i].img}" alt="${dataCamera[i].name}">
+													  <div class="card-body">
+													    <h5 class="card-title">${dataCamera[i].name}</h5> 
+													    <p class="card-text">
+													     ${dataCamera[i].description}</p> 
+													    <a href="/phone/${dataCamera[i].model}" class="btn btn-primary">View more</a>
+													  </div>`)
+	}
 }
 
 function headphones(){
 	//Here go content for phones pages
-	$("#fromPage").empty(); 
-	let i = 0;
-	let headphoneOne = `
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="${data.headphone[0].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.headphone[1].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.headphone[2].img}" alt="" />
-			</div>
-		</div>
-	`;
-	let headphoneTwo = `
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="${data.headphone[3].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.headphone[4].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.headphone[5].img}" alt="" />
-			</div>
-		</div>
-	`;
-	console.log(headphoneOne);
-	$('#fromPage').append(headphoneOne);
-	$('#fromPage').append(headphoneTwo);
+	$("#fromPage").empty();
+	let dataHeadphone = data.headphone;
+	console.log(dataHeadphone);
+	for (let i in dataHeadphone) {
+	$("#fromPage").append(`<div class="card" style="width: 18rem;">
+													  <img class="card-img-top" src="${dataHeadphone[i].img}" alt="${dataHeadphone[i].name}">
+													  <div class="card-body">
+													    <h5 class="card-title">${dataHeadphone[i].name}</h5> 
+													    <p class="card-text">${dataHeadphone[i].description}</p>
+													    <a href="/phone/${dataHeadphone[i].model}" class="btn btn-primary">View more</a>
+													  </div>`)
+	}
+	
 }
 
 function computers(){
 	$("#fromPage").empty(); 
-		//Here go content for phones pages 
-	let i = 0;
-	let computerOne = `
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="${data.notebook[0].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.notebook[1].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.notebook[2].img}" alt="" />
-			</div>
-		</div>
-	`;
-	let computerTwo = `
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="${data.notebook[3].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.notebook[4].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.notebook[5].img}" alt="" />
-			</div>
-		</div>
-	`;
-	console.log(computerOne);
-	$('#fromPage').append(computerOne);
-	$('#fromPage').append(computerTwo);
+		//Here go content for phones pages
+	let dataNotebook = data.notebook;
+	console.log(dataNotebook);
+	for (let i in dataNotebook) {
+	$("#fromPage").append(`<div class="card" style="width: 18rem;">
+													  <img class="card-img-top" src="${dataNotebook[i].img}" alt="${dataNotebook[i].name}">
+													  <div class="card-body">
+													    <h5 class="card-title">${dataNotebook[i].name}</h5> 
+													    <p class="card-text">
+													    Dimensiones: 
+													    Alto: ${dataNotebook[i].description.Alto}
+													    <br>
+													    Ancho: ${dataNotebook[i].description.Ancho}
+													    <br> 
+													    Profundidad: ${dataNotebook[i].description.Profundidad}
+													    <br></p>
+													    <a href="/phone/${dataNotebook[i].model}" class="btn btn-primary">View more</a>
+													    <div>
+															   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+																	<input type="hidden" name="cmd" value="_s-xclick">
+																	<input type="hidden" name="hosted_button_id" value=${dataNotebook[i].value}>
+																	<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+																	<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+																	</form>
+															</div>
+													  </div>`)
+	}
 }
-
