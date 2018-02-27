@@ -233,3 +233,15 @@
   font-size: 20px;
 
 }
+
+/*Tarjetas*/
+
+.card{
+  margin-bottom: 10em;
+  margin-right: 4em;
+  margin-left: 1em;  
+}
+
+.card-body{
+  height: auto; 
+}

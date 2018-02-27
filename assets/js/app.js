@@ -2,7 +2,8 @@
 /* page('ruta', callback) */
 page.start()
 page('/home', home); 
-page('/phones', phones); 
+page('/phones', phones);
+page('/phone/:model', phoneModel); 
 page('/camera', camera); 
 page('/headphones', headphones); 
 page('/computers', computers);
@@ -213,37 +214,25 @@ function home(){
 
 function phones() {
 	$("#fromPage").empty(); 
-	let i = 0;
-	let phoneOne = `
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="${data.phone[0].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.phone[1].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.phone[2].img}" alt="" />
-			</div>
-		</div>
-	`;
-	let phoneTwo = `
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="${data.phone[3].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.phone[4].img}" alt="" />
-			</div>
-			<div class="col-sm-4">
-				<img src="${data.phone[5].img}" alt="" />
-			</div>
-		</div>
-	`;
-	console.log(phoneOne);
-
-	$('#fromPage').append(phoneOne);
-	$('#fromPage').append(phoneTwo);
+	let dataPhone = data.phone;
+	console.log(dataPhone);
+	for (let i in dataPhone) {
+		$("#fromPage").append(`<div class="card" style="width: 18rem;">
+													  <img class="card-img-top" src="${dataPhone[i].img}" alt="${dataPhone[i].name}">
+													  <div class="card-body">
+													    <h5 class="card-title">${dataPhone[i].name}</h5> 
+													    <p class="card-text">
+													    Dimensiones: 
+													    Alto: ${dataPhone[i].description.Alto}
+													    <br>
+													    Ancho: ${dataPhone[i].description.Ancho}
+													    <br> 
+													    Profundidad: ${dataPhone[i].description.Profundidad}
+													    <br> </p>
+													    <a href="/phone/${dataPhone[i].model}" class="btn btn-primary">View more</a>
+													  </div>
+													</div>`)
+	}
 }
 
 
@@ -351,3 +340,4 @@ function computers(){
 	$('#fromPage').append(computerOne);
 	$('#fromPage').append(computerTwo);
 }
+
