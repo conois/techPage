@@ -315,9 +315,39 @@ margin-left: 15%;
 .card{
   margin-bottom: 10em;
   margin-right: 4em;
-  margin-left: 1em;  
+  margin-left: 1em;
+}
+
+.card-title{
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 700;
+}
+
+.card-text {
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 500;
 }
 
 .card-body{
   height: auto; 
+}
+
+#btnView {
+  background-color: #2ECC71;
+  border: none;
+  text-align: center;
+  margin-left: 30%;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 700;
+}
+
+#paypal {
+  background-color: #2ECC71;
+  border: none;
+  text-align: center;
+  margin-left: 30%;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 700;
 }

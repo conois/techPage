@@ -185,96 +185,118 @@ function home() {
 
 
 function phones() {
-  $('#fromPage').empty();
-  $('#principalContainer').hide();
-  let dataPhone = data.phone;
-  console.log(dataPhone);
-  for (let i in dataPhone) {
-    $('#fromPage').append(`<div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="${dataPhone[i].img}" alt="${dataPhone[i].name}">
-                            <div class="card-body">
-                              <h5 class="card-title">${dataPhone[i].name}</h5> 
-                              <p class="card-text">
-                              Dimensiones: 
-                              Alto: ${dataPhone[i].description.Alto}
-                              <br>
-                              Ancho: ${dataPhone[i].description.Ancho}
-                              <br> 
-                              Profundidad: ${dataPhone[i].description.Profundidad}
-                              <br> </p>
-                              <a href="/phone/${dataPhone[i].model}" class="btn btn-primary">View more</a>
-                              <div>
-                              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="">
-                                <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
-                              </form></div>
-                              </div>
-                            </div>`);
-  }
+	$("#fromPage").empty();
+	$('#principalContainer').hide();
+	let dataPhone = data.phone;
+	console.log(dataPhone);
+	for (let i in dataPhone) {
+		$("#fromPage").append(`<div class="card" style="width: 18rem; border: 1.5px solid #2ECC71;">
+													  <img class="card-img-top" src="${dataPhone[i].img}" alt="${dataPhone[i].name}">
+													  <div class="card-body">
+													    <h5 class="card-title">${dataPhone[i].name}</h5> 
+													    <p class="card-text">
+													    Dimensiones: 
+													    Alto: ${dataPhone[i].description.Alto}
+													    <br>
+													    Ancho: ${dataPhone[i].description.Ancho}
+													    <br> 
+													    Profundidad: ${dataPhone[i].description.Profundidad}
+													    <br> </p>
+													    <a href="/phone/${dataPhone[i].model}" class="btn btn-primary" id="btnView">View more</a>
+													    <div>
+													    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+																<input type="hidden" name="cmd" value="_s-xclick">
+																<input type="hidden" name="hosted_button_id" value="CJE7C4JBR9GFS">
+																<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+																<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+																</form></div>
+															</div>
+													  </div>
+													</div>`)
+	}
 }
 
-function camera() {
-  $('#fromPage').empty(); 
-  let dataCamera = data.camera;
-  console.log(dataCamera);
-  for (let i in dataCamera) {
-    $('#fromPage').append(`<div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="${dataCamera[i].img}" alt="${dataCamera[i].name}">
-                            <div class="card-body">
-                              <h5 class="card-title">${dataCamera[i].name}</h5> 
-                              <p class="card-text">
-                              ${dataCamera[i].description}</p> 
-                              <a href="/phone/${dataCamera[i].model}" class="btn btn-primary">View more</a>
-                            </div>`);
-  }
+function camera(){
+	$("#fromPage").empty();
+	$('#principalContainer').hide();
+	let dataCamera = data.camera;
+	console.log(dataCamera);
+	for (let i in dataCamera) {
+	$("#fromPage").append(`<div class="card" style="width: 18rem; border: 1.5px solid #2ECC71;">
+													  <img class="card-img-top" src="${dataCamera[i].img}" alt="${dataCamera[i].name}">
+													  <div class="card-body">
+													    <h5 class="card-title">${dataCamera[i].name}</h5> 
+													    <p class="card-text">
+													     ${dataCamera[i].description}</p> 
+													    <a href="/phone/${dataCamera[i].model}" class="btn btn-primary" id="btnView">View more</a>
+													    <a href="/phone/${dataCamera[i].model}" class="btn btn-primary">View more</a>
+													     <div>
+															   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+																	<input type="hidden" name="cmd" value="_s-xclick">
+																	<input type="hidden" name="hosted_button_id" value=${dataCamera[i].value}>
+																	<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+																	<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+																	</form>
+															</div> 
+													  </div>`)
+	}
 }
 
-function headphones() {
-  // Here go content for phones pages
-  $('#fromPage').empty();
-  let dataHeadphone = data.headphone;
-  console.log(dataHeadphone);
-  for (let i in dataHeadphone) {
-    $('#fromPage').append(`<div class="card" style="width: 18rem;">
-                              <img class="card-img-top" src="${dataHeadphone[i].img}" alt="${dataHeadphone[i].name}">
-                              <div class="card-body">
-                              <h5 class="card-title">${dataHeadphone[i].name}</h5> 
-                              <p class="card-text">${dataHeadphone[i].description}</p>
-                              <a href="/phone/${dataHeadphone[i].model}" class="btn btn-primary">View more</a>
-                          </div>`);
-  }
+function headphones(){
+	//Here go content for phones pages
+	$("#fromPage").empty();
+	$('#principalContainer').hide();
+	let dataHeadphone = data.headphone;
+	console.log(dataHeadphone);
+	for (let i in dataHeadphone) {
+	$("#fromPage").append(`<div class="card" style="width: 18rem; border: 1.5px solid #2ECC71;">
+													  <img class="card-img-top" src="${dataHeadphone[i].img}" alt="${dataHeadphone[i].name}">
+													  <div class="card-body">
+													    <h5 class="card-title">${dataHeadphone[i].name}</h5> 
+													    <p class="card-text">${dataHeadphone[i].description}</p>
+													    <a href="/phone/${dataHeadphone[i].model}" class="btn btn-primary" id="btnView">View more</a>
+													    <a href="/phone/${dataHeadphone[i].model}" class="btn btn-primary">View more</a>
+													   	 <div>
+													    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+																<input type="hidden" name="cmd" value="_s-xclick">
+																<input type="hidden" name="hosted_button_id" value="CJE7C4JBR9GFS">
+																<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+																<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+																</form></div>
+															</div> 
+													  </div>`)
+	}	
 }
 
-function computers() {
-  $('#fromPage').empty(); 
-  // Here go content for phones pages
-  let dataNotebook = data.notebook;
-  console.log(dataNotebook);
-  for (let i in dataNotebook) {
-    $('#fromPage').append(`<div class="card" style="width: 18rem;">
-                              <img class="card-img-top" src="${dataNotebook[i].img}" alt="${dataNotebook[i].name}">
-                              <div class="card-body">
-                              <h5 class="card-title">${dataNotebook[i].name}</h5> 
-                              <p class="card-text">
-                              Dimensiones: 
-                              Alto: ${dataNotebook[i].description.Alto}
-                              <br>
-                              Ancho: ${dataNotebook[i].description.Ancho}
-                              <br> 
-                              Profundidad: ${dataNotebook[i].description.Profundidad}
-                              <br></p>
-                              <a href="/phone/${dataNotebook[i].model}" class="btn btn-primary">View more</a>
-                              <div>
-                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                                  <input type="hidden" name="cmd" value="_s-xclick">
-                                  <input type="hidden" name="hosted_button_id" value=${dataNotebook[i].value}>
-                                  <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                  <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
-                                  </form>
-                              </div>
-                          </div>`);
-  }
+function computers(){
+	$("#fromPage").empty();
+	$('#principalContainer').hide();
+		//Here go content for phones pages
+	let dataNotebook = data.notebook;
+	console.log(dataNotebook);
+	for (let i in dataNotebook) {
+	$("#fromPage").append(`<div class="card" style="width: 18rem; border: 1.5px solid #2ECC71;">
+													  <img class="card-img-top" src="${dataNotebook[i].img}" alt="${dataNotebook[i].name}">
+													  <div class="card-body">
+													    <h5 class="card-title">${dataNotebook[i].name}</h5> 
+													    <p class="card-text">
+													    Dimensiones: 
+													    Alto: ${dataNotebook[i].description.Alto}
+													    <br>
+													    Ancho: ${dataNotebook[i].description.Ancho}
+													    <br> 
+													    Profundidad: ${dataNotebook[i].description.Profundidad}
+													    <br></p>
+													    <a href="/phone/${dataNotebook[i].model}" class="btn btn-primary" id="btnView">View more</a>
+													    <div>
+															   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+																	<input type="hidden" name="cmd" value="_s-xclick">
+																	<input type="hidden" name="hosted_button_id" value=${dataNotebook[i].value}>
+																	<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+																	<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+																	</form>
+															</div>
+													  </div>`)
+	}
 }
 
